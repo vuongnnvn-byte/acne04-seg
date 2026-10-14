@@ -1,0 +1,7 @@
+Model,Dataset,Total Images,Complete Misses (Dice=0),Miss Rate (%)
+YOLO11n-seg,In-domain (ACNE04),711,1,0.14%
+YOLO11n-seg,Dataset 1 (Wrinkles/Acne),2409,13,0.54%
+YOLO11n-seg,Dataset 2 (Whitehead/Acne),7681,432,5.62%
+YOLO26n-seg,In-domain (ACNE04),711,1,0.14%
+YOLO26n-seg,Dataset 1 (Wrinkles/Acne),2409,10,0.42%
+YOLO26n-seg,Dataset 2 (Whitehead/Acne),7681,391,5.09%

@@ -1,0 +1,96 @@
+# ==========================================
+# 1. Virtual Environment & Python Cache
+# ==========================================
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# 2. Jupyter Notebook & VS Code
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ==========================================
+# 3. Dữ liệu Datasets & File nén lớn (Bắt buộc bỏ qua)
+# ==========================================
+# Các thư mục dataset đã giải nén
+datasets/
+clean_external_whitehead/
+clean_external_wrinkles/
+
+# Các file nén dataset
+clean_external_whitehead.zip
+clean_external_wrinkles.zip
+datasets.zip
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Cache nhãn sinh tự động bởi Ultralytics
+*.cache
+labels.cache
+
+# File ảnh thô / nhãn
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.txt
+!requirements.txt
+!README.md
+
+# ==========================================
+# 4. Trọng số Mô hình & Thư mục Huấn luyện (Runs / Results)
+# ==========================================
+runs/
+results/
+*.pt
+*.onnx
+*.engine
+
+# ==========================================
+# 5. File tạm Word, OS & File rác
+# ==========================================
+# File khóa tạm của Microsoft Word (như ~$ tả dataset.docx)
+~$*
+~$*.docx
+New Text Document.txt
+
+# Hệ điều hành
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ==========================================
+# 6. Ngoại lệ giữ lại (Cho phép Git theo dõi)
+# ==========================================
+# Giữ lại các notebook code quan trọng
+!evaluate_model.ipynb
+!preprocess_datasets.ipynb
+
+# Giữ lại tài liệu Word, Slide và Paper chính thức
+!Mô tả dataset.docx
+!MVIPIT2026___Cross_Dataset_Evalua*.pdf
+!NGHIÊN CỨU VÀ PHÁT TRIỂN HỆ TH...*
+
+# Giữ lại thư mục benchmarks chứa kết quả CSV và Figures của bài báo
+!benchmarks/**
+!*.csv
+!figure*.png
+
+results/
+runs/
+yolo11-seg/

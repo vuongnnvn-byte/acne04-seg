@@ -1,0 +1,4 @@
+Dataset,Comparison,Delta Mean Dice,Raw p-value,p_Holm,Significant
+Dataset 2 (Whitehead/Acne),YOLO11n-seg vs. YOLO26n-seg,0.0013,2.1947094687459373e-33,6.5841e-33,Yes
+Dataset 1 (Wrinkles/Acne),YOLO11n-seg vs. YOLO26n-seg,0.001,1.4762265736275419e-18,2.9525e-18,Yes
+In-domain (ACNE04),YOLO11n-seg vs. YOLO26n-seg,-0.0022,0.08853166917653484,0.0885,No
